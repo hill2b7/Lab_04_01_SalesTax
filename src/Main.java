@@ -6,6 +6,7 @@ public class Main {
         double totalSalesTax = 0.00; // sets total sales tax
         double totalPrice = 0.00; // sets total price
 
+        System.out.println("The price of this item is " + priceOfPurchase);
         totalSalesTax = priceOfPurchase * SALES_TAX_PERCENTAGE; //calculation for total sales tax
         System.out.println("The total sales tax is " + totalSalesTax); //outputs the calculation of sales tax
         totalPrice = totalSalesTax + priceOfPurchase; // calculates total cost including sales tax and price of item
